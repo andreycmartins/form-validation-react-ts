@@ -1,3 +1,27 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.container {
+    @apply w-full max-w-7xl m-auto p-8   
+}
+
+.container h1 {
+    @apply text-3xl font-bold text-gray-800
+}
+
+.form {
+    @apply py-8
+}
+
+.form label{
+    @apply block
+}
+
+.form input {
+    @apply w-full border border-gray-300 p-2 mb-1 rounded-md py-2
+}
+
+.form button {
+    @apply mt-4
+}
