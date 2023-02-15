@@ -14,6 +14,10 @@
     @apply py-8
 }
 
+.error-text {
+    @apply text-red-600 text-sm pb-3
+}
+
 .form label{
     @apply block
 }
